@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Activating Applications</title>
+</head>
+<body>
+
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-[#E6E8ED]">
+
+        <div>
+            <!-- Modal Container -->
+            <div class="bg-white dark:bg-[#020415] p-[1.25rem] rounded-[.625rem] w-[600px] relative">
+            <!-- Modal Contents -->
+            <div class="flex flex-row items-center justify-between">
+                <div>
+                    <h1 class="text-base font-semibold dark:text-white">Activate applications</h1>
+                    <P class="font-base text-sm leading-5 text-[#6F7181] dark:text-[#B3BDD0]">Streamline your processes and link the resources you use often.</P>
+                </div>
+                <!-- Dark/Light Toggle -->
+                <div>
+                    <img class="moon cursor-pointer" src="assets/Moon Icon.svg" alt="Moon Icon">
+                    <img class="sun cursor-pointer display-none" src="assets/Sun icon.svg" alt="Sun Icon">
+                </div>
+            </div>
+
+            <!-- Search and Dropdown -->
+            <div class="flex flex-row items-center justify-between mt-[.75rem]">
+                <div class="flex flex-row items-center gap-[.625rem]">
+             
+                    <img src="assets/Dark Mode Search Icon.svg" alt="Search Icon">
+                    <input class="focus:outline-0 text-sm font-normal bg-transparent dark:text-white" size="54" type="text" placeholder="Search Apps...">
+                </div>
+                <a class="flex flex-row gap-[.37rem] items-center text-center text-sm font-medium text-[#6F7181] dark:text-[#A7AABA]" href="#">All Applications<img src="assets/Dark Mode Dropdown.svg" alt="Dropdown Icon"></a>
+            </div>
+
+            <hr class="mt-[.375rem] mb-[.875rem]">
+
+            <!-- Cards -->
+
+            <div class="flex flex-col space-y-3 items-center space-x-[17px] md:flex-row md:space-y-0">
+
+                <!-- First Card -->
+                <div class="p-[.875rem] bg-[#F3F5F8] rounded-[.625rem] w-11/12 dark:bg-[#181C2A]">
+                    <div class="bg-white rounded-[.625rem] py-[1.125rem] px-[.8125rem] flex flex-row items-center justify-between dark:bg-[#34364570]">
+                        <div class="flex flex-row items-center gap-[.5rem]">
+                            <img src="assets/Figma Logo.svg" alt="Figma Logo">
+                            <h1 class="text-sm font-semibold dark:text-[#FFFFFF]">Figma 1</h1>
+                        </div>
+    
+                        <!-- Toggle Switch -->
+    
+                        <div> 
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                    </div>
+    
+                    <p class="pt-[.625rem] text-sm text-[#6F7181] font-normal dark:text-[#B3BDD0]">Supercharge designs for your software projects with the ultimate design tool, Figma.</p>
+    
+                </div>
+
+
+
+                <!-- Second Card -->
+                <div class="p-[.875rem] bg-[#F3F5F8] rounded-[.625rem] w-11/12 dark:bg-[#181C2A]">
+                    <div class="bg-white rounded-[.625rem] py-[1.125rem] px-[.8125rem] flex flex-row items-center justify-between dark:bg-[#34364570]">
+                        <div class="flex flex-row items-center gap-[.5rem]">
+                            <img src="assets/Protopie Logo.svg" alt="Protopie Logo">
+                            <h1 class="text-sm font-semibold dark:text-[#FFFFFF]">Protopie</h1>
+                        </div>
+    
+                        <!-- Toggle Switch -->
+    
+                        <div> 
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                    </div>
+    
+                    <p class="pt-[.625rem] text-sm text-[#6F7181] font-normal dark:text-[#B3BDD0]">Create the most amazing and interactive prototypes on your projects using Protopie.</p>
+    
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center space-x-[17px] mt-[.875rem] md:flex-row">
+
+                <!-- Third Card -->
+                <div class="p-[.875rem] bg-[#F3F5F8] rounded-[.625rem] w-11/12 dark:bg-[#181C2A]">
+                    <div class="bg-white rounded-[.625rem] py-[1.125rem] px-[.8125rem] flex flex-row items-center justify-between dark:bg-[#34364570]">
+                        <div class="flex flex-row items-center gap-[.5rem]">
+                            <img src="assets/VSCode Logo.svg" alt="VSCode Logo">
+                            <h1 class="text-sm font-semibold dark:text-[#FFFFFF]">VS Code</h1>
+                        </div>
+    
+                        <!-- Toggle Switch -->
+    
+                        <div> 
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                    </div>
+    
+                    <p class="pt-[.625rem] text-sm text-[#6F7181] font-normal dark:text-[#B3BDD0]">The most used IDE by most developers around the world. Best for coding your projects.</p>
+    
+                </div>
+
+
+
+                <!-- Fourth Card -->
+                <div class="p-[.875rem] bg-[#F3F5F8] rounded-[.625rem] w-11/12 dark:bg-[#181C2A]">
+                    <div class="bg-white rounded-[.625rem] py-[1.125rem] px-[.8125rem] flex flex-row items-center justify-between dark:bg-[#34364570]">
+                        <div class="flex flex-row items-center gap-[.5rem]">
+                            <img src="assets/Notion Logo.svg" alt="Figma Logo">
+                            <h1 class="text-sm font-semibold dark:text-[#FFFFFF]">Notion</h1>
+                        </div>
+    
+                        <!-- Toggle Switch -->
+    
+                        <div> 
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                    </div>
+    
+                    <p class="pt-[.625rem] text-sm text-[#6F7181] font-normal dark:text-[#B3BDD0]">Manage your workflow and processes with the new and improved Notion App.</p>
+    
+                </div>
+            </div>
+
+
+            <div class="flex flex-col items-center space-x-[17px] mt-[.875rem] md:flex-row">
+
+                <!-- Fifth Card -->
+                <div class="p-[.875rem] bg-[#F3F5F8] rounded-[.625rem] w-11/12 dark:bg-[#181C2A]">
+                    <div class="bg-white rounded-[.625rem] py-[1.125rem] px-[.8125rem] flex flex-row items-center justify-between dark:bg-[#34364570]">
+                        <div class="flex flex-row items-center gap-[.5rem]">
+                            <img src="assets/WhatsApp Logo.svg" alt="WhatsApp">
+                            <h1 class="text-sm font-semibold dark:text-[#FFFFFF]">WhatsApp</h1>
+                        </div>
+    
+                        <!-- Toggle Switch -->
+    
+                        <div> 
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                    </div>
+    
+                    <p class="pt-[.625rem] text-sm text-[#6F7181] font-normal dark:text-[#B3BDD0]">The most used IDE by most developers around the world. Best for coding your projects.</p>
+    
+                </div>
+
+
+
+                <!-- Sixth Card -->
+                <div class="p-[.875rem] bg-[#F3F5F8] rounded-[.625rem] w-11/12 dark:bg-[#181C2A]">
+                    <div class="bg-white rounded-[.625rem] py-[1.125rem] px-[.8125rem] flex flex-row items-center justify-between dark:bg-[#34364570]">
+                        <div class="flex flex-row items-center gap-[.5rem]">
+                            <img src="assets/Vimeo Logo.svg" alt="Figma Logo">
+                            <h1 class="text-sm font-semibold dark:text-[#FFFFFF]">Vimeo</h1>
+                        </div>
+    
+                        <!-- Toggle Switch -->
+    
+                        <div> 
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+    
+                    </div>
+    
+                    <p class="pt-[.625rem] text-sm text-[#6F7181] font-normal dark:text-[#B3BDD0]">Manage your workflow and processes with the new and improved Notion App.</p>
+    
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <hr class="bg-[#F3F3F5] dark:bg-0 relative bottom-[135px]"> -->
+
+        <footer class="flex items-center justify-end bg-white/90 dark:bg-[#020415D9] relative bottom-[135px] h-[135px] rounded-b-[10px]">
+
+            <div class="mr-[20px]">
+                <a class="rounded-[10px] mr-[10px] px-[50px] py-[12px] border text-base border-[#E4E4EA] dark:text-white dark:border-[#3A3B4F]" href="#">Cancel</a>
+                <a class="bg-[#5419F1] text-white rounded-[10px] text-base px-[50px] py-[12px]" href="#">Continue</a>
+            </div>
+
+        </footer>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+    
+</body>
+
+</html>
